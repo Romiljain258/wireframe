@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+.sidebar{
+  text-align: left;
+  width:300px;
+  background-color:rgb(146, 110, 42);
+  height:90%;
+}
+.title{
+  text-decoration: none;
+  color:white;
+  height:90%;
+}
+.nav-color{
+  background-color:rgb(219, 164, 61);
+}
+.card-p{
+  display:grid;
+ grid-template-columns:repeat(6,1fr);
+ grid-row-gap:20px;
+ grid-column-gap:20px;
+ cursor:pointer;
+}
+.btn{
+  color:white;
+  border:1px solid black;
+  width:300px;
+  margin-top:80px;
+  border-radius:10px;
+  margin-left:60px;
+  margin-right:60px;
+  background-color: orange;
+  cursor:pointer;
+}
+.card-title-green{
+  background-color: green;
+  color:white;
+}
+.sidebar ul li{
+  text-decoration: none;
+}
+.card-title-red{
+  background-color: red;
+  color:white;
+}
+.sidebar-p{
+  height:100%;
+}
+.btn-p{
+  display: flex;
+}
